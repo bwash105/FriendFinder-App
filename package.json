@@ -1,0 +1,19 @@
+{
+  "name": "friendfinder-app",
+  "version": "1.0.0",
+  "description": "The Best Way to Find Your Friends",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bwash105/FriendFinder-App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bwash105/FriendFinder-App/issues"
+  },
+  "homepage": "https://github.com/bwash105/FriendFinder-App#readme"
+}
