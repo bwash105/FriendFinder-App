@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/bwash105/FriendFinder-App/issues"
   },
-  "homepage": "https://github.com/bwash105/FriendFinder-App#readme"
+  "homepage": "https://github.com/bwash105/FriendFinder-App#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "path": "^0.12.7"
+  }
 }
