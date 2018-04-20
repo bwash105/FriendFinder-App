@@ -14,200 +14,226 @@
 </head>
 
 <body>
+    <div id="myModal" class="modal">
 
-    <div class="container">
-
-        <div class="jumbotron">
-            <h1 class="text-center">
-                <span class="glyphicon glyphicon-fire"></span> Friend Finder Survey</h1>
-            <hr>
-            <h2 class="text-center">Answer Questions Below: </h2>
-            <br>
-
-            <div class="text-center">
-                <a href="/home">
-                    <button class="btn btn-primary btn-lg">
-                        <span class="glyphicon glyphicon-home"></span>
-                    </button>
-                </a>
-            </div>
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="friend-info"></div>
         </div>
 
-        <div class="row">
-            <div class="col-lg-12">
+    </div>
 
-                <!-- Reservation Page -->
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4 class="panel-title">Survey</h4>
-                    </div>
-                    <div class="panel-body">
-                        <form action="/survey">
-                            <h3>
-                                <strong>Question 1</strong>
-                            </h3>
-                            <h4>Your mind is always buzzing with unexplored ideas and plans.</h4>
-                            <select name="friend">
-                                <option value="">Select your option</option>
-                                <option value="one">1 (strongly disagree)</option>
-                                <option value="two">2</option>
-                                <option value="three">3</option>
-                                <option value="four">4</option>
-                                <option value="five">5 (strongly agree)</option>
-                            </select>
-                            <br>
-                            <br>
-                            <h3>
-                                <strong>Question 2</strong>
-                            </h3>
-                            <h4>Generally speaking, you rely more on your experience than your imagination.</h4>
-                            <select name="friend">
-                                    <option value="">Select your option</option>
-                                <option value="one">1 (strongly disagree)</option>
-                                <option value="two">2</option>
-                                <option value="three">3</option>
-                                <option value="four">4</option>
-                                <option value="five">5 (strongly agree)</option>
-                            </select>
-                            <br>
-                            <br>
-                            <h3>
-                                <strong>Question 3</strong>
-                            </h3>
-                            <h4>You find it easy to stay relaxed and focused even when there is some pressure.
-                                </h4>
-                            <select name="friend">
-                                    <option value="">Select your option</option>
-                                <option value="one">1 (strongly disagree)</option>
-                                <option value="two">2</option>
-                                <option value="three">3</option>
-                                <option value="four">4</option>
-                                <option value="five">5 (strongly agree)</option>
-                            </select>
-                            <br>
-                            <br>
-                            <h3>
-                                <strong>Question 4</strong>
-                            </h3>
-                            <h4>You rarely do something just out of sheer curiosity.
-                                </h4>
-                            <select name="friend">
-                                    <option value="">Select your option</option>
-                                <option value="one">1 (strongly disagree)</option>
-                                <option value="two">2</option>
-                                <option value="three">3</option>
-                                <option value="four">4</option>
-                                <option value="five">5 (strongly agree)</option>
-                            </select>
-                            <br>
-                            <br>
-                            <h3>
-                                <strong>Question 5</strong>
-                            </h3>
-                            <h4>People can rarely upset you.</h4>
-                            <select name="friend">
-                                    <option value="">Select your option</option>
-                                <option value="one">1 (strongly disagree)</option>
-                                <option value="two">2</option>
-                                <option value="three">3</option>
-                                <option value="four">4</option>
-                                <option value="five">5 (strongly agree)</option>
-                            </select>
-                            <br>
-                            <br>
-                            <h3>
-                                <strong>Question 6</strong>
-                            </h3>
-                            <h4>It is often difficult for you to relate to other people’s feelings.
-                                </h4>
-                            <select name="friend">
-                                    <option value="">Select your option</option>
-                                <option value="one">1 (strongly disagree)</option>
-                                <option value="two">2</option>
-                                <option value="three">3</option>
-                                <option value="four">4</option>
-                                <option value="five">5 (strongly agree)</option>
-                            </select>
-                            <br>
-                            <br>
-                            <h3>
-                                <strong>Question 7</strong>
-                            </h3>
-                            <h4>In a discussion, truth should be more important than people’s sensitivities.
-                                </h4>
-                            <select name="friend">
-                                    <option value="">Select your option</option>
-                                <option value="one">1 (strongly disagree)</option>
-                                <option value="two">2</option>
-                                <option value="three">3</option>
-                                <option value="four">4</option>
-                                <option value="five">5 (strongly agree)</option>
-                            </select>
-                            <br>
-                            <br>
-                            <h3>
-                                <strong>Question 8</strong>
-                            </h3>
-                            <h4>You rarely get carried away by fantasies and ideas.
-                            </h4>
-                            <select name="friend">
-                                    <option value="">Select your option</option>
-                                <option value="one">1 (strongly disagree)</option>
-                                <option value="two">2</option>
-                                <option value="three">3</option>
-                                <option value="four">4</option>
-                                <option value="five">5 (strongly agree)</option>
-                            </select>
-                            <br>
-                            <br>
-                            <h3>
-                                <strong>Question 9</strong>
-                            </h3>
-                            <h4>You think that everyone’s views should be respected regardless of whether they are supported by facts or not.</h4>
-                            <select name="friend">
-                                    <option value="">Select your option</option>
-                                <option value="one">1 (strongly disagree)</option>
-                                <option value="two">2</option>
-                                <option value="three">3</option>
-                                <option value="four">4</option>
-                                <option value="five">5 (strongly agree)</option>
-                            </select>
-                            <br>
-                            <br>
-                            <h3>
-                                <strong>Question 10</strong>
-                            </h3>
-                            <h4>You feel more energetic after spending time with a group of people.</h4>
-                            <select name="friend">
-                                    <option value="">Select your option</option>
-                                <option value="one">1 (strongly disagree)</option>
-                                <option value="two">2</option>
-                                <option value="three">3</option>
-                                <option value="four">4</option>
-                                <option value="five">5 (strongly agree)</option>
-                            </select>
-                            <br>
-                            <br>
-                            <br>
-                            <input type="submit" class="btn btn-success">
-                        </form>
+            <div class="container">
+
+                <div class="jumbotron">
+                    <h1 class="text-center">
+                        <span class="glyphicon glyphicon-fire"></span> Friend Finder Survey</h1>
+                    <hr>
+                    <h2 class="text-center">Answer Questions Below: </h2>
+                    <br>
+
+                    <div class="text-center">
+                        <a href="/home">
+                            <button class="btn btn-primary btn-lg">
+                                <span class="glyphicon glyphicon-home"></span>
+                            </button>
+                        </a>
                     </div>
                 </div>
 
+                <div class="row">
+                    <div class="col-lg-12">
+
+                            <div>
+                                <div class="panel-body">
+                                    <form role="form">
+                                        <h3>About Me</h3>
+                                        <div class="form-group">
+                            
+                                            <label for="name">Name</label>
+                                            <input type="text" class="form-control" id="user-name">
+                                        </div>
+                            
+                                        <div class="form-group">
+                                            <label for="role">Link to Photo Image (Required)</label>
+                                            <input type="text" class="form-control" id="user-photo">
+                                        </div>
+                                    </div>
+
+                        <!-- Survey Section -->
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">Survey</h4>
+                            </div>
+                            <div class="panel-body">
+                                <form action="/survey">
+                                    <h3>
+                                        <strong>Question 1</strong>
+                                    </h3>
+                                    <h4>Your mind is always buzzing with unexplored ideas and plans.</h4>
+                                    <select name="friend">
+                                        <option value="">Select your option</option>
+                                        <option value="one">1 (strongly disagree)</option>
+                                        <option value="two">2</option>
+                                        <option value="three">3</option>
+                                        <option value="four">4</option>
+                                        <option value="five">5 (strongly agree)</option>
+                                    </select>
+                                    <br>
+                                    <br>
+                                    <h3>
+                                        <strong>Question 2</strong>
+                                    </h3>
+                                    <h4>Generally speaking, you rely more on your experience than your imagination.</h4>
+                                    <select name="friend">
+                                        <option value="">Select your option</option>
+                                        <option value="one">1 (strongly disagree)</option>
+                                        <option value="two">2</option>
+                                        <option value="three">3</option>
+                                        <option value="four">4</option>
+                                        <option value="five">5 (strongly agree)</option>
+                                    </select>
+                                    <br>
+                                    <br>
+                                    <h3>
+                                        <strong>Question 3</strong>
+                                    </h3>
+                                    <h4>You find it easy to stay relaxed and focused even when there is some pressure.
+                                    </h4>
+                                    <select name="friend">
+                                        <option value="">Select your option</option>
+                                        <option value="one">1 (strongly disagree)</option>
+                                        <option value="two">2</option>
+                                        <option value="three">3</option>
+                                        <option value="four">4</option>
+                                        <option value="five">5 (strongly agree)</option>
+                                    </select>
+                                    <br>
+                                    <br>
+                                    <h3>
+                                        <strong>Question 4</strong>
+                                    </h3>
+                                    <h4>You rarely do something just out of sheer curiosity.
+                                    </h4>
+                                    <select name="friend">
+                                        <option value="">Select your option</option>
+                                        <option value="one">1 (strongly disagree)</option>
+                                        <option value="two">2</option>
+                                        <option value="three">3</option>
+                                        <option value="four">4</option>
+                                        <option value="five">5 (strongly agree)</option>
+                                    </select>
+                                    <br>
+                                    <br>
+                                    <h3>
+                                        <strong>Question 5</strong>
+                                    </h3>
+                                    <h4>People can rarely upset you.</h4>
+                                    <select name="friend">
+                                        <option value="">Select your option</option>
+                                        <option value="one">1 (strongly disagree)</option>
+                                        <option value="two">2</option>
+                                        <option value="three">3</option>
+                                        <option value="four">4</option>
+                                        <option value="five">5 (strongly agree)</option>
+                                    </select>
+                                    <br>
+                                    <br>
+                                    <h3>
+                                        <strong>Question 6</strong>
+                                    </h3>
+                                    <h4>It is often difficult for you to relate to other people’s feelings.
+                                    </h4>
+                                    <select name="friend">
+                                        <option value="">Select your option</option>
+                                        <option value="one">1 (strongly disagree)</option>
+                                        <option value="two">2</option>
+                                        <option value="three">3</option>
+                                        <option value="four">4</option>
+                                        <option value="five">5 (strongly agree)</option>
+                                    </select>
+                                    <br>
+                                    <br>
+                                    <h3>
+                                        <strong>Question 7</strong>
+                                    </h3>
+                                    <h4>In a discussion, truth should be more important than people’s sensitivities.
+                                    </h4>
+                                    <select name="friend">
+                                        <option value="">Select your option</option>
+                                        <option value="one">1 (strongly disagree)</option>
+                                        <option value="two">2</option>
+                                        <option value="three">3</option>
+                                        <option value="four">4</option>
+                                        <option value="five">5 (strongly agree)</option>
+                                    </select>
+                                    <br>
+                                    <br>
+                                    <h3>
+                                        <strong>Question 8</strong>
+                                    </h3>
+                                    <h4>You rarely get carried away by fantasies and ideas.
+                                    </h4>
+                                    <select name="friend">
+                                        <option value="">Select your option</option>
+                                        <option value="one">1 (strongly disagree)</option>
+                                        <option value="two">2</option>
+                                        <option value="three">3</option>
+                                        <option value="four">4</option>
+                                        <option value="five">5 (strongly agree)</option>
+                                    </select>
+                                    <br>
+                                    <br>
+                                    <h3>
+                                        <strong>Question 9</strong>
+                                    </h3>
+                                    <h4>You think that everyone’s views should be respected regardless of whether they are supported
+                                        by facts or not.</h4>
+                                    <select name="friend">
+                                        <option value="">Select your option</option>
+                                        <option value="one">1 (strongly disagree)</option>
+                                        <option value="two">2</option>
+                                        <option value="three">3</option>
+                                        <option value="four">4</option>
+                                        <option value="five">5 (strongly agree)</option>
+                                    </select>
+                                    <br>
+                                    <br>
+                                    <h3>
+                                        <strong>Question 10</strong>
+                                    </h3>
+                                    <h4>You feel more energetic after spending time with a group of people.</h4>
+                                    <select name="friend">
+                                        <option value="">Select your option</option>
+                                        <option value="one">1 (strongly disagree)</option>
+                                        <option value="two">2</option>
+                                        <option value="three">3</option>
+                                        <option value="four">4</option>
+                                        <option value="five">5 (strongly agree)</option>
+                                    </select>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <input type="submit" class="btn btn-success">
+                                </form>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <footer class="footer">
+                    <div class="container">
+                        <p>
+                            <a href="/api/tables">API Table Link</a> |
+                            <a href="https://github.com/afhaque/HotRestaurant">GitHub Repo</a>
+                        </p>
+                    </div>
+                </footer>
+
             </div>
-        </div>
-
-
-        <footer class="footer">
-            <div class="container">
-                <p>
-                    <a href="/api/tables">API Table Link</a> |
-                    <a href="https://github.com/afhaque/HotRestaurant">GitHub Repo</a>
-                </p>
-            </div>
-        </footer>
-
-    </div>
 
 </body>
 
@@ -216,50 +242,55 @@
 <!-- BELOW CODE IS CRITICAL. IT HANDLES HOW FORM DATA IS SENT TO OUR SERVER -->
 <script type="text/javascript">
 
-    // In this code below we create the Front-end JavaScript which "POSTS" our form data to our express server.
-    // In essence, when the user hits submit, jQuery grabs all of the fields then sends a post request to our api
-    // Our api recognizes the route (/api/tables)... and then runs the associated code (found in api-routes.js).
-    // In this case the associated code "saves" the data to the table-data.js file or waitinglist-data.js file
-
-    $(".submit").on("click", function (event) {
-        event.preventDefault();
-
-        // Here we grab the form elements
-        var newFriend = {
-            customerName: $("#reserve-name").val().trim(),
-            phoneNumber: $("#reserve-phone").val().trim(),
-            customerEmail: $("#reserve-email").val().trim(),
-            customerID: $("#reserve-unique-id").val().trim()
-        };
-
-        console.log(newFriend);
-
-        // This line is the magic. It"s very similar to the standard ajax function we used.
-        // Essentially we give it a URL, we give it the object we want to send, then we have a "callback".
-        // The callback is the response of the server. In our case, we set up code in api-routes that "returns" true or false
-        // depending on if a tables is available or not.
-
-        $.post("/api/tables", newFriend,
-            function (data) {
-
-                // If a table is available... tell user they are booked.
-                if (data) {
-                    alert("Yay! You are officially booked!");
+        $("#add-btn").on("click", function (event) {
+            event.preventDefault();
+            var newProfile = {
+                name: $("#user-name").val().trim(),
+                profPic: $("#user-photo").val().trim(),
+                answers: []
+            };
+            for (var i = 1; i < 11; i++) {
+                newProfile.answers.push($("#question" + i).val().trim())
+            }
+            $("#user-name").val("");
+            $("#user-photo").val("");
+            for (var i = 1; i < 11; i++) {
+                $("#question" + i).val("");
+            };
+            console.log(newProfile);
+            $.post("/api/friends", newProfile)
+                .then(function (data) {
+                    console.log(data);
+                    alert("Matching you with a friend...");
+                });
+            $.get("/api/friends", function (data) {
+                    console.log(data);
+                    var newFriend = $("<div>");
+                    var randomNumber = Math.floor(Math.random() * 4);
+                    console.log(randomNumber);
+                    $(newFriend).append("<h1>Your New Friend!<h1>")
+                    $(newFriend).append("<h2>" + data[randomNumber].name + "</h2>");
+                    $(newFriend).append("<img id='profile-pic' src='" + data[randomNumber].profPic + "' alt='profile picture'>")
+                    $("#friend-info").append(newFriend);
+                    
+            
+            })
+            displayModal();
+        });
+        function displayModal() {
+            var modal = document.getElementById('myModal');
+            var btn = document.getElementById("add-btn");
+            var span = document.getElementsByClassName("close")[0];
+            modal.style.display = "block";
+            span.onclick = function () {
+                modal.style.display = "none";
+                $(newFriend).empty();
+            }
+            window.onclick = function (event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
                 }
-
-                // If a table is available... tell user they on the waiting list.
-                else {
-                    alert("Sorry you are on the wait list");
-                }
-
-                // Clear the form when submitting
-                $("#reserve-name").val("");
-                $("#reserve-phone").val("");
-                $("#reserve-email").val("");
-                $("#reserve-unique-id").val("");
-
-            });
-
-    });
-
-</script>
+            }
+        }
+        
+    </script>

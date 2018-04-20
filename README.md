@@ -5,7 +5,7 @@ The only way to find friends that are truly like you. All you have to do is fill
 3 Esay Steps:
 
 1. Click the link:
-
+https://friend-finder3-app.herokuapp.com/
 
 2. Click "Start Survey"
 

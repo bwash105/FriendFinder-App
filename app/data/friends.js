@@ -2,7 +2,7 @@ var friends = [
 {
     name:"Heath Ledger",
     photo:"https://giphy.com/gifs/HDOIz6w1FJvHi/html5",
-    scores:[
+    answers:[
         5,
         1,
         4,
@@ -17,7 +17,7 @@ var friends = [
   }, {
     name: "Tom Hanks",
     photo: "https://giphy.com/gifs/XXgzL0AcScNA4/html5",
-    scores: [
+    answers: [
         4,
         3,
         3,
@@ -33,7 +33,7 @@ var friends = [
   }, {
     name: "Kristen Wiig",
     photo: "https://giphy.com/gifs/J3fj1vuiAVbri/html5",
-    scores: [
+    answers: [
         4,
         3,
         3,
@@ -49,7 +49,7 @@ var friends = [
   }, {
     name: "Hilary Clinton",
     photo: "https://giphy.com/gifs/Yik850Nufb8Ag/html5",
-    scores: [
+    answers: [
         4,
         3,
         3,
