@@ -1,11 +1,17 @@
-// Create path for survey
-// Route home
-app.get("/", function(req,res) {
-    res.sendFile(path.join(__dirname, "home.html"));
-});
+var friendData = require("../data/friends");
 
-// Route survey
-app.get("/survey", function(req,res) {
-    res.sendFile(path.join(__dirname, "survey.html"));
-});
+module.exports = function (app) {
 
+
+
+    app.get("/api/friends", function (req, res) {
+        return res.json(friends);
+    });
+
+    app.post("/api/friends", function (req, res) {
+        if (friendData.scores === true) {
+            friendData.push(req.body);
+            res.json(true);
+        }
+    })
+};
